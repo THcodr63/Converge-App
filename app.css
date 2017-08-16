@@ -1,0 +1,231 @@
+#body{
+background: white;
+}
+.jumbotron {
+  border-radius:60px;
+background-image: url("charlotte-black-white.jpg");
+background-size: cover;
+height: 100%;
+margin-top: 30px; 
+}
+
+#pretty{
+color: limegreen;
+font-family: 'Nunito', sans-serif;
+}
+
+#h2{
+  color: #2a884c;
+}
+ 
+#ramka{
+
+   opacity: 0.5;
+    filter: alpha(opacity=50);
+
+  opacity: 0.2;
+  filter: alpha(opacity=50);
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+  width: 30%;
+  height: 120px;
+  background:#4e4e4e;
+  float: right;
+  
+}
+#ramka:hover{
+   opacity: 0.9;
+    filter: alpha(opacity=100);
+    color:;
+}
+
+#parag1{
+  color: white;
+}
+
+.linia{
+  margin-top: 50px;
+  text-align: right;
+  color: #333;
+}
+#pwd{
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+  background: grey;
+  width: 40%;
+}
+
+#pwd:hover{
+  opacity: 1.pacity: 0.5;
+  filter: alpha(opacity=50);
+  filter: alpha(opacity=100);
+  color:white;
+}
+#usr{
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+  background-color: white;
+ width: 40%;
+}
+#urs{
+  opacity: 1.pacity: 0.5;
+  filter: alpha(opacity=50);
+  filter: alpha(opacity=100);
+}
+
+
+.fa-inverse{
+  background: grey;
+  border-radius: 40px;
+  color:#333;
+}
+.fa-map-marker:before{
+  color: azure;
+}
+.fa-rocket:before{
+color: tomato;
+}
+.fa-umbrella:before{
+color: black;
+}
+.fa-sitemap:before{
+color: gold;
+}
+.fa-phone:before{
+color: limegreen;
+}
+.fa-cloud-download:before{
+  color: lightblue;
+}
+.copyright{
+  font-size: 14px;
+  color:lightblue;
+}
+.foot{
+  background-color: #333; 
+  text-align: center;
+  width:100%;
+  height: 5em;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+#social{
+  color: tomato;
+   font-size: 20px;
+  color: azure;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: grey;
+    border-radius: 25px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    color: grey;
+    font-size: 12px;
+}
+
+#knopka {
+  background-color: limegreen;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: limegreen;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: limegreen;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.creators {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+ }
+
+
+ .create-contain {
+    margin-left: 275px;
+ }
+
+
+.card-content {
+  align-content: center;
+  background-color: grey;
+}
+
+.card-title, .activator {
+  background-color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .create-contain {
+    margin-left: 150px 
+ }
+}
+
+@media screen and (max-width: 640px) {
+  .creation-contain {
+    margin-left: 100px;
+   } 
+}
+
+@media screen and (max-width: 480px) {
+  .creation-contain {
+    margin: 200px;
+  }
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .page-footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  .brand-logo {
+    font-family: 'Sedgwick Ave', cursive; 
+  }
+
+  .apptitle {
+   font-family: 'Sedgwick Ave', sans-serif;
+   color: limegreen;
+  
+  }
+
+  .display-3 {
+    color: white;
+  }
+
+
+ 

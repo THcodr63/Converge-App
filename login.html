@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="app.css">
+<!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://use.fontawesome.com/2d0805e259.js"></script>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600,700|Open+Sans+Condensed:300,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito:600|Poppins:600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+
+<!-- Latest compiled and minified JavaScript -->
+	<meta charset="UTF-8">
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>First Project</title>
+</head>
+
+
+<body>
+ <div class="container">
+<div class="jumbotron" id="pretty" >
+  <h1 class="brand-logo">Converge</h1>
+  <p id="parag1">Please sign-in below in order to search and save your events</p>
+  
+  <!-- INPUT METHODSSS -->
+  <div class="form-group">
+  <label for="usr">Name:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div class="form-group">
+  <label for="pwd">Password:</label>
+  <input type="password" class="form-control" id="pwd">
+</div>
+  <!-- <a class="btn btn-primary btn-lg" id="knopka" href="#" role="button">START...</a>
+  <div><div class="linia well well-sm">Unchangend Fix Position</div>
+  </div> -->
+  <div>
+  
+  </span>
+  </div>
+</div>
+</div>
+</body>
+<script>
+  
+  (function () {
+    var url ="https://openweathermap.org/find?q=charlotte+nc";
+    var apiKey ="1d209ef86def855a1271ba0acf254d52";
+    var httpRequest;
+    makeRequest();
+
+
+// create and sent XHR request!!!
+function makeRequest(){
+  httpRequest = new XMLHttpRequest();
+  httpRequest.onreadystatechange=responseMethod;
+  httpRequest.open("GET" url + '&appid=' +apiKey);
+  httpRequest.send();
+}
+
+
+
+
+  //handle XHR responnse 
+  function responseMethod() {
+    if(httpRequest.reeadyState===4){
+      console.log(httpRequest.responseText);
+    }
+    // body... 
+  }
+  })();
+
+
+
+
+
+
+
+
+
+
+</script>
+
+<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>
